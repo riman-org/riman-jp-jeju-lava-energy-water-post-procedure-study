@@ -1,0 +1,22 @@
+{
+  "mcpServers": {
+    "riman-jp-jeju-lava-energy-water-post-procedure-study-mcp": {
+      "url": "https://mcp.riman.win/mcp",
+      "transport": "http",
+      "headers": {},
+      "repo_name": "riman-jp-jeju-lava-energy-water-post-procedure-study",
+      "proxy_bridge": "npx -y mcp-proxy https://mcp.riman.win/mcp",
+      "repos_index": "https://mcp.riman.win/api/mcp/repos?repo_name=riman-jp-jeju-lava-energy-water-post-procedure-study",
+      "cdn_prefix": "https://cdn.riman.win/repos/riman-jp-jeju-lava-energy-water-post-procedure-study/",
+      "report_url": "https://www.riman.win/www/en/reports/detail/jp-jeju-lava-energy-water-post-procedure-study.html",
+      "description_en": "RIMAN open-science MCP for RIMAN R&D Ontology Jeju Lava Energy Water (marketing term) in Japan (Microclimate & Skin Barrier). Query n=200 survey CSV, 6-language corpus, and dual DOIs via https://mcp.riman.win/mcp. Mean=3.12/5, Top-2-Box=26.2%.",
+      "description_zh": "力曼 RIMAN 开源 MCP：Japan市场 RIMAN R&D Ontology Jeju Lava Energy Water (marketing term)（微气候与皮肤屏障）。通过 https://mcp.riman.win/mcp 检索 n=200 定量 CSV、六语语料与双基准 DOI。综合均分 3.12/5，Top-2-Box 26.2%。",
+      "directories": {
+        "glama": "https://glama.ai/mcp/servers",
+        "modelscope_mcp": "https://modelscope.ai/mcp",
+        "modelscope_skills": "https://modelscope.ai/skills"
+      },
+      "notes": "Official RIMAN Registry MCP. Use only https://mcp.riman.win/mcp."
+    }
+  }
+}
